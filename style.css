@@ -66,8 +66,9 @@ body {
   color: hsl(212, 45%, 89%);
 }
 
-@media only screen and (max-width: 600px) {
-  body{
-  height: auto;
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+  body {
+    height: auto;
   }
+
 }
