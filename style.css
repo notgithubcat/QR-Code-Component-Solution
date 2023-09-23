@@ -66,16 +66,3 @@ body {
   color: hsl(212, 45%, 89%);
 }
 
-@media only screen and (max-width: 600px) and (orientation: landscape) {
-  body {
-    overflow: auto;
-    height: auto;
-  }
-
-  .card-wrapper {
-    margin: 40px;
-    width: auto;
-    max-height: 80vh; 
-  }
-}
-
