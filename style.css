@@ -75,7 +75,7 @@ body {
   .card-wrapper {
     margin: 40px;
     width: auto;
-    max-height: 80vh; /* Limit the card's height to 80% of the viewport height */
+    max-height: 80vh; 
   }
 }
 
