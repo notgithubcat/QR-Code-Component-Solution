@@ -66,4 +66,15 @@ body {
   color: hsl(212, 45%, 89%);
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .card-wrapper {
+    margin: 40px;
+  }
+}
+
 
