@@ -97,23 +97,3 @@ h6 {
 .card__contents p {
   color: hsl(220, 15%, 55%);
 }
-
-
-
-@media only screen and (min-width: 600px) {
-  body {
-    height: auto !important;
-  }
-}
-
-@media only screen and (orientation: landscape) {
-  body {
-    height: auto !important;
-    justify-content: start;
-  }
-
-  .card_wrapper {
-    margin-top: 3rem;
-  }
-}
-
