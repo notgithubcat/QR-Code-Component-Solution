@@ -105,13 +105,6 @@ h6 {
 
 }
 
-@media only screen and (max-width: 320px) and (orientation: landscape) {
-  body {
-    scale: .8;
-  }
-
-}
-
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {
   body {
