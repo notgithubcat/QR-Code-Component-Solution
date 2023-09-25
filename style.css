@@ -113,7 +113,6 @@ h6 {
 
 @media only screen and (orientation: landscape) {
   body {
-    justify-content: start;
     height: 100%;
     margin-top: 3rem;
   }
