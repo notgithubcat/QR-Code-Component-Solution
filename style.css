@@ -98,6 +98,26 @@ h6 {
   color: hsl(220, 15%, 55%);
 }
 
+@media only screen and (max-width: 1440px) {
+  body {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (orientation: landscape) {
+  body {
+    justify-content: center;
+    margin-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    justify-content: start;
+    margin-top: 5rem;
+  }
+}
+
 @media only screen and (max-width: 600px) and (orientation: landscape) {
   body {
     justify-content: start;
