@@ -107,13 +107,14 @@ h6 {
 @media only screen and (max-width: 600px) {
   body {
     justify-content: start;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 }
 
 @media only screen and (max-width: 600px) and (orientation: landscape) {
   body {
     justify-content: start;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 }
+
