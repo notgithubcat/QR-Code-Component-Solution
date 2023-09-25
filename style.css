@@ -98,16 +98,11 @@ h6 {
   color: hsl(220, 15%, 55%);
 }
 
-@media only screen and (max-width: 1440px) {
-  body {
-    justify-content: center;
-  }
-}
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 475px) {
   body {
-    justify-content: start;
-    margin-top: 3rem;
+    height: auto !important;
   }
 }
 
@@ -115,6 +110,10 @@ h6 {
   body {
     height: auto !important;
     justify-content: start;
+  }
+
+  .card_wrapper {
     margin-top: 3rem;
   }
 }
+
