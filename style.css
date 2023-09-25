@@ -100,7 +100,7 @@ h6 {
 
 @media only screen and (max-width: 375px) {
   body {
-    justify-content: start;
+    justify-content: center;
   }
 
 }
