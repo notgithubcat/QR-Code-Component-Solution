@@ -97,3 +97,11 @@ h6 {
 .card__contents p {
   color: hsl(220, 15%, 55%);
 }
+
+@media only screen and (max-width: 900px) {
+  body {
+    justify-content: start;
+  }
+
+}
+
