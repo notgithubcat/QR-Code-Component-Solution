@@ -98,9 +98,16 @@ h6 {
   color: hsl(220, 15%, 55%);
 }
 
-@media only screen and (max-width: 320px) and (orientation: portrait) {
+@media only screen and (max-width: 320px) {
   body {
-    background-color: red;
+    scale: .8;
+  }
+
+}
+
+@media only screen and (max-width: 320px) and (orientation: landscape) {
+  body {
+    scale: .8;
   }
 
 }
